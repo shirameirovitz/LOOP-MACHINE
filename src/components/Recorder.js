@@ -15,16 +15,16 @@ const Recorder = () => {
   return (
     <div>
       <ReactRecord record={isRecording} onStop={stopRecording}>
-        <Button className="mx-3" variant={'success'} onClick={startRecording}>
-          Record
-        </Button>
-        <Button className="mx-3" variant={'danger'} onClick={stopRecording}>
-          Stop
-        </Button>
         <span>
           {''}
           {isRecording ? <RiRecordCircleLine size={25} /> : null}
         </span>
+        <Button className="mx-3" variant={'success'} onClick={startRecording}>
+          Record
+        </Button>
+        <Button className="mx-31" variant={'danger'} onClick={stopRecording}>
+          Stop
+        </Button>
       </ReactRecord>
     </div>
   );

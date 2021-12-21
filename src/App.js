@@ -15,6 +15,7 @@ const App = () => {
 
   return (
     <div>
+      <header>Loop Machine</header>
       {loading ? (
         <ClipLoader loading={loading} color={'black'} size={'250px'} />
       ) : (

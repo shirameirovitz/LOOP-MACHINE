@@ -16,7 +16,7 @@ const Pads = ({ handlePadClick }) => {
   ];
 
   return (
-    <div className="container">
+    <span className="container">
       {sounds.map((sound, i) => (
         <div className={`sound${i}`} key={i}>
           <p>{sound}</p>
@@ -31,7 +31,7 @@ const Pads = ({ handlePadClick }) => {
           </label>
         </div>
       ))}
-    </div>
+    </span>
   );
 };
 export default Pads;
