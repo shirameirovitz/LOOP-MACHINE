@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './App.css';
 import LoopMachine from './components/LoopMachine';
 import ClipLoader from 'react-spinners/ClipLoader';
 

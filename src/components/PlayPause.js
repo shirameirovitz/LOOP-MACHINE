@@ -1,7 +1,5 @@
-/*
-Play-Pause buttons Component
-*/
 import React from 'react';
+import './PlayPause.css';
 import play from '../assets/play.png';
 import pause from '../assets/pause.png';
 
