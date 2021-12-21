@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "firebase",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -9,13 +9,13 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "/index.html"
+        "destination": "/index.js"
       }
     ]
   },
   "emulators": {
     "hosting": {
-      "port": 5000
+      "port": null
     },
     "pubsub": {
       "port": null
