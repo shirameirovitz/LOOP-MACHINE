@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
+import LoopMachine from './components/LoopMachine';
+import ClipLoader from 'react-spinners/ClipLoader';
 
-function App() {
+const App = () => {
+  // React Spinners loading for 2sec
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {loading ? (
+        <ClipLoader loading={loading} color={'black'} size={'250px'} />
+      ) : (
+        <LoopMachine />
+      )}
     </div>
   );
-}
+};
 
 export default App;
