@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Loop Machine
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Enjoy The Loop Machine Service!
+
+this app is a Loop Machine service.
+It offers nine beats that you can control and create with by looping.
+This service also provides a record of your creation.
+
+![web](./gif/loop machine.gif)
 
 ## Available Scripts
 
