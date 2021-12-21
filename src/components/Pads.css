@@ -1,0 +1,121 @@
+.container {
+  color: ivory;
+  text-align: center;
+  max-width: 1000px;
+  display: grid;
+  margin-left: 40px;
+  grid-template-columns: 10fr 10fr 10fr 10fr 10fr;
+}
+.sound0,
+.sound1,
+.sound2,
+.sound3,
+.sound4,
+.sound5,
+.sound6,
+.sound7,
+.sound8,
+.sound9 {
+  height: 180px;
+  width: 200px;
+  display: inline-block;
+  margin: auto;
+  border-radius: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.sound0 {
+  background-image: url(./images/level.jpg);
+  background-size: cover;
+  margin-right: 20px;
+}
+.sound1 {
+  background-image: url(./images/maracas.jpg);
+  background-size: cover;
+  margin-right: 20px;
+}
+.sound2 {
+  background-image: url(./images/saxophone.jpg);
+  background-size: cover;
+  margin-right: 20px;
+}
+.sound3 {
+  background-image: url(./images/electric.jpg);
+  background-size: cover;
+  margin-right: 20px;
+}
+.sound4 {
+  background-image: url(./images/Violin.jpg);
+  background-size: cover;
+  margin-right: 20px;
+}
+.sound5 {
+  background-image: url(./images/piano.jpg);
+  background-size: cover;
+  margin-right: 20px;
+}
+.sound6 {
+  background-image: url(./images/trumpet.jpg);
+  background-size: cover;
+  margin-right: 20px;
+}
+.sound7 {
+  background-image: url(./images/guitar.jpg);
+  background-size: cover;
+  margin-right: 20px;
+}
+.sound8 {
+  background-image: url(./images/singer.jpg);
+  background-size: cover;
+  margin-right: 20px;
+}
+.switch {
+  position: relative;
+}
+input[type='checkbox'] {
+  display: none;
+}
+
+label {
+  border: 1px solid #fff;
+  background-color: none;
+  color: black;
+  padding: 65px;
+  display: block;
+  position: relative;
+  cursor: pointer;
+}
+
+input:checked + .slider {
+  position: absolute;
+  cursor: pointer;
+  font-size: 10px;
+  height: 20px;
+  width: 60px;
+  top: 0;
+  right: 0;
+  background-image: url(./images/singer.jpg);
+  box-shadow: 0 0 35px #2196f3;
+  height: 125px;
+  width: 200px;
+  display: inline-block;
+  margin: auto;
+  border-radius: 2px 2px 25px 25px;
+}
+
+/* input:checked + .slider {
+    display: none;
+}  */
+
+/* input:checked + .slider:before {
+  conten
+
+/* Rounded sliders
+
+.slider.round {
+  border-radius: 40px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+} */
