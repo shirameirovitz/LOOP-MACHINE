@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import "./Looper.css";
 import Pads from './Pads';
 import PlayPause from './PlayPause';
 import Recorder from './Recorder';
