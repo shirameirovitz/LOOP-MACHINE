@@ -6,13 +6,13 @@ this app is a Loop Machine service.
 It offers nine beats that you can control and create with by looping.
 This service also provides a record of your creation.
 
-![Looper](C:\Users\shira\Documents\GitHub\loop-machine1\gif\loop machine.gif)
+![Looper](./gif/loop-machine.gif 'Looper')
 
 ## Responsive
 
 the service is responsive and can be use on desktop and mobile devices.
 
-![Phone](C:\Users\shira\Documents\GitHub\loop-machine1\gif\loop machine phone.gif)
+![Phone](./gif/loop-machine-phone.gif 'Phone')
 
 ## Available Scripts
 
