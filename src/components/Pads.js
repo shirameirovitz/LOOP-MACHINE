@@ -1,4 +1,5 @@
 import React from 'react';
+import './Pads.css';
 
 //all the mp3 sounds
 const Pads = ({ handlePadClick }) => {
