@@ -14,13 +14,19 @@ const Pads = ({ handlePadClick }) => {
     'Tanggu',
     'Perc',
   ];
+
   return (
     <div className="container">
       {sounds.map((sound, i) => (
         <div className={`sound${i}`} key={i}>
           <p>{sound}</p>
           <label className="switch">
-            <input type="checkbox" onClick={() => handlePadClick(sounds[i])} />
+            <input
+              id="switch"
+              type="checkbox"
+              onClick={() => handlePadClick(sounds[i])}
+              
+            />
             <span className="slider round"></span>
           </label>
         </div>
