@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/%7Bloop-machine%7D/static/css/main.a70a6b08.css",
+    "main.js": "/%7Bloop-machine%7D/static/js/main.b3889224.js",
+    "static/js/787.cfd8f164.chunk.js": "/%7Bloop-machine%7D/static/js/787.cfd8f164.chunk.js",
+    "static/media/electric.jpg": "/%7Bloop-machine%7D/static/media/electric.260bb9eb62f860d3fc51.jpg",
+    "static/media/level.jpg": "/%7Bloop-machine%7D/static/media/level.40283574a01efeb6ebd2.jpg",
+    "static/media/maracas.jpg": "/%7Bloop-machine%7D/static/media/maracas.94d39dfe69a183e8c5a2.jpg",
+    "static/media/saxophone.jpg": "/%7Bloop-machine%7D/static/media/saxophone.52862efad51ad619776d.jpg",
+    "static/media/trumpet.jpg": "/%7Bloop-machine%7D/static/media/trumpet.d9cbaa5c6dc2cc7e6002.jpg",
+    "static/media/Violin.jpg": "/%7Bloop-machine%7D/static/media/Violin.22d65bee91dde3fac3cc.jpg",
+    "static/media/piano.jpg": "/%7Bloop-machine%7D/static/media/piano.f50268dca13f794e184a.jpg",
+    "static/media/singer.jpg": "/%7Bloop-machine%7D/static/media/singer.ec3b31491e784b67a0b1.jpg",
+    "static/media/guitar.jpg": "/%7Bloop-machine%7D/static/media/guitar.122975550417e90f4a3b.jpg",
+    "static/media/background.jpg": "/%7Bloop-machine%7D/static/media/background.5cad844bf3e3abed8567.jpg",
+    "static/media/play.png": "/%7Bloop-machine%7D/static/media/play.bd764a6eb965c280486e.png",
+    "static/media/pause.png": "/%7Bloop-machine%7D/static/media/pause.a5f01a77c6665099a5a0.png",
+    "index.html": "/%7Bloop-machine%7D/index.html",
+    "main.a70a6b08.css.map": "/%7Bloop-machine%7D/static/css/main.a70a6b08.css.map",
+    "main.b3889224.js.map": "/%7Bloop-machine%7D/static/js/main.b3889224.js.map",
+    "787.cfd8f164.chunk.js.map": "/%7Bloop-machine%7D/static/js/787.cfd8f164.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a70a6b08.css",
+    "static/js/main.b3889224.js"
+  ]
+}
